@@ -2,15 +2,14 @@
 import React from 'react';
 import {
  
-  Box,
-  
+  Box,  
   Image,
   Badge,
-  StarIcon
+  
 
 } from '@chakra-ui/react';
 
-export const AirbnbExample = props => {
+function AirbnbExample () {
     const property = {
       imageUrl: 'https://bit.ly/2Z4KKcF',
       imageAlt: 'Rear view of modern home with pool',
@@ -48,7 +47,7 @@ export const AirbnbExample = props => {
             fontWeight='semibold'
             as='h4'
             lineHeight='tight'
-            isTruncated
+            
           >
             {property.title}
           </Box>
@@ -72,4 +71,4 @@ export const AirbnbExample = props => {
   }
 
 
-
+  export default AirbnbExample;

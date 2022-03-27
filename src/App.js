@@ -11,7 +11,7 @@ import {
 
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
-import {AirbnbExample} from './AirbnbExample';
+import AirbnbExample from './AirbnbExample';
 
 function App() {
   return (
@@ -26,6 +26,7 @@ function App() {
             <Text>
               Edit <Code fontSize="xl">src/App.js</Code> and save to reload.
             </Text>
+            <AirbnbExample/>
             <AirbnbExample/>
             <Link
               color="teal.500"
